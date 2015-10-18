@@ -1,0 +1,94 @@
+body {
+  background: rgb(182, 142, 114);
+}
+
+.win {
+  background: #8BB68B;
+}
+
+.loss {
+  background: #9E1F1B;
+}
+
+.tie {
+  background: #e0e0e0;
+}
+
+/* TODO: Implement CSS rules. */
+
+
+@media (min-width: 600px) { 
+	.board {
+		position: absolute;
+		width: 520px;
+		margin-left: -260px; 
+		left: 50%;
+		top: 130px;
+	}
+
+	.board .btn-default {
+		width: 160px;
+		height: 160px; 
+		font-size: 80px;
+		/*background: #b4e391; /* Old browsers */
+		/*background: -webkit-linear-gradient(top,  #b4e391 0%,#61c419 50%,#b4e391 100%); /* Chrome10+,Safari5.1+ */
+		color: white;	
+	}
+
+	.board .btn-default:nth-child(3n + 2) {
+		margin: 16px
+	}
+	.left-text {
+		position: absolute;
+		height: auto; 
+		top: -80px; 
+		left: -15px;
+		font-size: 36px;
+}
+
+	.right-text {
+		position: absolute;
+		height: auto; 
+		top: -80px; 
+		right: -15px;
+		font-size: 36px;
+}
+}
+@media (max-width: 600px) {
+	.board {
+		position: absolute;
+		width: 260px;
+		margin-left: -130px; 
+		left: 50%;
+		top: 80px;
+	}
+
+	
+	.board .btn-default {
+		width: 80px;
+		height: 80px; 
+		font-size: 40px;
+	}
+
+	.board .btn-default:nth-child(3n + 2) {
+		margin: 6px;
+	}
+
+	.left-text {
+		position: absolute;
+		height: auto; 
+		top: -50px; 
+		left: -5px;
+		font-size: 24px;
+	}
+
+	.right-text {
+		position: absolute;
+		height: auto; 
+		top: -50px; 
+		right: -5px;
+		font-size: 24px;
+	}
+}
+	/*
+
