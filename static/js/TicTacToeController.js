@@ -1,5 +1,3 @@
-// 	var squareIndex = $(".board>button").index(this);
-//
 
 rh.ttt.TicTacToeController = function() { 
 	this.game = new rh.ttt.TicTacToeGame; 
@@ -11,8 +9,6 @@ rh.ttt.TicTacToeController.prototype.updateView = function(data){
 	$("#wins").text(data.wins);
 	$("#losses").text(data.losses);
 	$("#ties").text(data.ties);	
-	
-//	this.game.getGameState.each
 };
 
 rh.ttt.TicTacToeController.prototype.sendPost = function(message) {
