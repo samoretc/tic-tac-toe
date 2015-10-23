@@ -1,2 +1,2 @@
 # tic-tac-toe
-View samoretc-tic-tac-toe.appspot.com for a live copy! 
+Click <a href = "samoretc-tic-tac-toe.appspot.com">here</a> for a live copy! 
